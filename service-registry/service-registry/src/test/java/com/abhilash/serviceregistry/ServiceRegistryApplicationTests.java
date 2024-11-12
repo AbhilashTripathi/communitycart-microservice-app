@@ -1,4 +1,4 @@
-package com.anshuman.serviceregistry;
+package com.abhilash.serviceregistry;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

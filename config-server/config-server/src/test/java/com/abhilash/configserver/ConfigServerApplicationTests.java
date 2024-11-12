@@ -1,4 +1,4 @@
-package com.anshuman.configserver;
+package com.abhilash.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

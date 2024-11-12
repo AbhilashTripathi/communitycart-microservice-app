@@ -1,4 +1,4 @@
-package com.anshuman.configserver;
+package com.abhilash.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
