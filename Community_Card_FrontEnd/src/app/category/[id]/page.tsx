@@ -37,7 +37,7 @@ export default function FeaturedProduct() {
                             <h1 className='text-2xl font-semibold text-gray-500'>No Featured Products</h1>
                             :
                             filteredProducts?.map((item: ProductSchema) => {
-                                return <ProductCard item={item} />
+                                return <ProductCard key='cardKey' item={item} />
                             })
                     }
 

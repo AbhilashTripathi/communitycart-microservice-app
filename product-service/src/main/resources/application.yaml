@@ -1,6 +1,7 @@
 spring:
   application:
     name: product-service
+    # mysql database
   jpa:
     hibernate:
       ddl-auto: update
@@ -10,6 +11,22 @@ spring:
     username: root
     password: Rootpass123#
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+  # h2database
+#  jpa:
+#    hibernate.ddl-auto: update
+#    generate-ddl: true
+#    database-platform: org.hibernate.dialect.H2Dialect
+#  h2:
+#    console:
+#      enabled: true
+#      path: /h2-console
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password:
+#    driverClassName: org.h2.Driver
+
 #  config:
 server:
   port: 8082

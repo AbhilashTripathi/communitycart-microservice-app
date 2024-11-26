@@ -12,7 +12,7 @@ export default function PaymentFailed() {
   },[])
   return (
     <div>
-      Payment failed.. Please don't close the browser. Redirecting you to home page.
+      Payment failed.. Please dont close the browser. Redirecting you to home page.
     </div>
   )
 }

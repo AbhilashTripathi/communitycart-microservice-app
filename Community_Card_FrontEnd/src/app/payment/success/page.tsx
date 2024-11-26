@@ -46,7 +46,7 @@ export default function PaymentSuccess() {
   }, [])
   return (
     <div>
-      Payment successful.. Please don't close the browser. Redirecting you to orders page.
+      Payment successful.. Please dont close the browser. Redirecting you to orders page.
     </div>
   )
 }

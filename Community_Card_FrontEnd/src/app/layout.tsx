@@ -33,6 +33,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script async
+          id='google-maps'
           src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_PLACES_API_KEY}&callback=initMap`}>
         </Script>
       </head>
